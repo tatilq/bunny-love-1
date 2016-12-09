@@ -1,70 +1,61 @@
+/*CLASES GENERALES*/
 *
 {
-	
+	padding: 0;
+	margin: 0;
 }
-/*CLASES GENERALES*/
-.texto h4 
+.titulo h4 
 {
-	font-size: 40px;	
+	font-size: 70px;	
 	color:#F67673;
 }
-.hero h4 , .conejos h4
+.hero h4 , .conejos h4 
 {
-	
 	color:#F67673;
 	font-family: 'Baloo Paaji', cursive;
 }
-.texto p, .hero p
+.texto p, .hero p , .banner p
 {
 	color: white;
 	font-family: 'Prompt', sans-serif;
 }
-header 
+article
 {
-	overflow: hidden;
+	background-color: #037F99;
 }
 /*ESTA ES LA PARTE DEL HEADER*/
 header .navbar{ background-color: #037F99; font-family: 'Baloo Paaji', cursive;}
-header .navbar a{color: white;}
-header .navbar ul li a {text-align: center;}
+header .navbar a{color:#C1EFFA; }
+header .navbar ul li a {text-align: center; font-family: 'Prompt', sans-serif;}
 header .navbar ul li a:hover{background-color:#F67673; color:#037F99;  }
 header .navbar-header a span {color:#F67673;}
 header button span{background-color: grey;}
+#navigation
+{
+	margin-right: 20px;
+}
 #btn_menu{background-color: transparent; border:1px solid black;}
 /*ESTA ES LA SECCION DEL BANNER*/
 .banner
 {
-	background: url(../img/img-1.jpg);
-	background-position:  top center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	box-sizing: border-box;
-}
-.texto
-{
-	padding: 150px 0px ;
-	/*font-family: 'Prompt', sans-serif;*/
-	background-color: rgba(32,147,185,0.8); 
-	font-family: 'Baloo Paaji', cursive;
-}
-
-/*ESTA ES LA SECCION DEL hero*/
-.hero
-{
 	margin-top: 50px;
-
+	overflow: hidden;
 }
-article
-{
-	outline: 1px solid red;
-	background-color: #037F99;
+.bunny{
+    background: url(../img/img-1.jpg) no-repeat;
+    background-size: cover;
+    height:350px; 
 }
+.titulo{
+    background: rgba(2,126,153,0.7);
+    font-family: 'Baloo Paaji', cursive;
+    margin: 5% 10%;
+    padding: 20px 0px;
+}
+/*ESTA ES LA SECCION DEL hero*/
+.hero { margin-top: 50px; }
 /*ESTA ES LA SECCION DE CONEJOS*/
-.conejos
-{
-	font-family: 'Prompt', sans-serif;
-}
+.conejos { font-family: 'Prompt', sans-serif;}
 .conejos .row
 {
 	background-color:#037F99; 
@@ -85,17 +76,18 @@ article
     margin-bottom: 10px;
 }
 .conejo-echado{
-    margin-right: 0;
+    
+    height: 350px;
     width: 100%;
 }
 .list-inline>li{
-    margin: 0 20px;
+    margin: 0 10px;
 }
 .box-icon-contact{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background: #fff;   
+    border-radius: 40%;
+    background:white;   
     line-height: 50px;
 }
 /*ESTA ES LA SECCION D ELOS IMG CONEJITOS*/
@@ -106,8 +98,7 @@ article
 .img_conejitos ul{
    
     display: flex;
-    overflow: hidden;
-   
+    overflow: hidden; 
 }
 .img_conejitos li{
     margin: 5px;
@@ -115,7 +106,7 @@ article
 /*ESTA ES LA PARTE DEL FOOTER*/
 footer{
     background: #037F99;
-    border-top: solid 2px #F67673;
+    border-top: none;
     padding: 30px 0;
     color: #fff;
 }

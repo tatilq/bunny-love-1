@@ -8,7 +8,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,700" rel="stylesheet">
 		<link rel="stylesheet" href="css/font-awesome.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/main.css">		
+		<link rel="stylesheet" href="css/main.css">	
+		<link rel="stylesheet" type="text/css" href="queries.css">	
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -16,7 +17,7 @@
 	<body>
 	<!--ESTA ES LA PARTE DEL HEADER-->
 	<header>
-		<div class="container ">
+		<div class="container-fluid">
 			<div class="navbar navbar-fixed-top" >
 	            <div class="navbar-header" >
 	                <button type="button" class=" navbar-toggle collapsed" id="btn_menu" data-toggle="collapse" data-target="#navigation">
@@ -41,18 +42,17 @@
 	    </div>
 	</header>
 	<!--ESTA ES LA SECCION DEL BANNER-->
-	<section >
-		<div class="container">
-			<div class="row banner">
-				<div class=" texto col-md-10 col-md-offset-1 text-center">
-					<div >
-						<h4>Soft Bunny</h4>
-						<p>Live  &nbsp &nbsp &nbsp- &nbsp &nbsp &nbsp Love  &nbsp &nbsp &nbsp -  &nbsp &nbsp &nbspLaugh</p>
-					</div>
-				</div>	
-			</div>
-		</div>
+	<section class="banner">
+	    <div class="container bunny text-center">
+	        <div class="row">
+	            <div class="titulo">
+	                <h4>Soft Bunny</h4>
+	                <p><em>Live - Love - Laugh</em></p>
+	            </div>
+	        </div>
+	    </div>
 	</section>
+	
 	<!--ESTA ES LA SECCION DEL HERO-->
 	<section class="hero text-center">
 	 	<div class="container">
@@ -114,24 +114,32 @@
         			</div>
         			<div class="col-md-5">
                         <input type="text" class="form-control" placeholder="Search ..." aria-describedby="sizing-addon1"> 
-                        <section class="contact">         <article class="text-center">
+                        <section class="contact">         
+                        	<article class="text-left ">
                             <img src="img/img-6.jpg" alt="imagen conejo echado" class="img-responsive conejo-echado">
-                            <h4>Where you'll Find me?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ad.</p>
-                            <br>
-                            <ul class="list-inline text-center">
-                                <li class="box-icon-contact"><a href="" class="fa fa-facebook-official"></a></li>
-                                <li class="box-icon-contact"><a href="" class="fa fa-instagram"></a></li>
-                                <li class="box-icon-contact"><a href="" class="fa fa-twitter"></a></li>
-                                <li class="box-icon-contact"><a href="" class="fa fa-youtube"></a></li>
-                            </ul>
-                            <br>
+                            <div class="box_bunny">
+	                            <h4>Where you'll Find me?</h2>
+	                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ad.</p>
+	                            <br>
+	                            <ul class="list-inline text-center">
+	                                <li class="box-icon-contact"><a href="" class="fa fa-facebook-official"></a></li>
+	                                <li class="box-icon-contact"><a href="" class="fa fa-instagram"></a></li>
+	                                <li class="box-icon-contact"><a href="" class="fa fa-twitter"></a></li>
+	                                <li class="box-icon-contact"><a href="" class="fa fa-youtube"></a></li>
+	                            </ul>
+	                            <br>
+                            </div>
                         </article>                           
                         </section>  
-                        <article class="text-center">
+                        <article class="text-left ">
                             <img src="img/img-3.jpg" alt="conejo blanco" class="img-responsive">
-                            <h4>Where you'll Find me?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ad.</p>
+                            <div class="box_bunny">
+	                            <h4>Where you'll Find me?</h4>
+	                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ad.
+	                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ad.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ad.
+	                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ad.
+	                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ad.</p>
+	                        </div>
                         </article>
                         <br>
                     </div>
@@ -164,7 +172,9 @@
         </section>
         <!--ESTA ES LA SECCION DEL FOOTER-->
         <footer class="text-center">
-            <p>All Rights Reserved &copy;</p>
+	        <div class="container">
+	            <p>All Rights Reserved &copy;</p>
+	        </div>
         </footer>
 </body>
 </html>
