@@ -19,6 +19,10 @@
 	color: white;
 	font-family: 'Prompt', sans-serif;
 }
+.conejos p
+{
+	font-weight: bold;
+}
 article
 {
 	background-color: #037F99;
@@ -30,12 +34,12 @@ header .navbar a{color:#C1EFFA; }
 header .navbar ul li a {text-align: center; font-family: 'Prompt', sans-serif;}
 header .navbar ul li a:hover{background-color:#F67673; color:#037F99;  }
 header .navbar-header a span {color:#F67673;}
-header button span{background-color: grey;}
+header button span{background-color: white; border: 2px solid white;}
 #navigation
 {
 	margin-right: 20px;
 }
-#btn_menu{background-color: transparent; border:1px solid black;}
+#btn_menu{background-color: transparent;}
 /*ESTA ES LA SECCION DEL BANNER*/
 .banner
 {
@@ -92,17 +96,11 @@ header button span{background-color: grey;}
     line-height: 50px;
 }
 /*ESTA ES LA SECCION D ELOS IMG CONEJITOS*/
-.img_conejitos img{
-    width: 100px;
-    height:  60px;
-}
-.img_conejitos ul{
-   
-    display: flex;
-    overflow: hidden; 
-}
-.img_conejitos li{
-    margin: 5px;
+.img_conejitos{
+    margin: 5px 0;
+    background:url(../img/bunny-head.png) repeat;
+    height: 95px;
+    background-size: contain;
 }
 /*ESTA ES LA PARTE DEL FOOTER*/
 footer{
