@@ -2,18 +2,29 @@
 {
 	
 }
-body
+/*CLASES GENERALES*/
+.texto h4 
 {
-
-	font-family: 'Baloo Paaji', cursive; 
-	/*font-family: 'Prompt', sans-serif;*/
+	font-size: 40px;	
+	color:#F67673;
+}
+.hero h4 , .conejos h4
+{
+	
+	color:#F67673;
+	font-family: 'Baloo Paaji', cursive;
+}
+.texto p, .hero p
+{
+	color: white;
+	font-family: 'Prompt', sans-serif;
 }
 header 
 {
 	overflow: hidden;
 }
 /*ESTA ES LA PARTE DEL HEADER*/
-header .navbar{ background-color: #037F99; }
+header .navbar{ background-color: #037F99; font-family: 'Baloo Paaji', cursive;}
 header .navbar a{color: white;}
 header .navbar ul li a {text-align: center;}
 header .navbar ul li a:hover{background-color:#F67673; color:#037F99;  }
@@ -33,13 +44,16 @@ header button span{background-color: grey;}
 .texto
 {
 	padding: 150px 0px ;
-	
+	/*font-family: 'Prompt', sans-serif;*/
 	background-color: rgba(32,147,185,0.8); 
+	font-family: 'Baloo Paaji', cursive;
 }
+
 /*ESTA ES LA SECCION DEL hero*/
 .hero
 {
 	margin-top: 50px;
+
 }
 article
 {
@@ -47,6 +61,10 @@ article
 	background-color: #037F99;
 }
 /*ESTA ES LA SECCION DE CONEJOS*/
+.conejos
+{
+	font-family: 'Prompt', sans-serif;
+}
 .conejos .row
 {
 	background-color:#037F99; 
