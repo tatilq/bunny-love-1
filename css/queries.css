@@ -1,12 +1,11 @@
 @media screen and (max-width:1000px) {
 	.titulo h4 
 	{
-		font-size: 50px;	
+		font-size: 30px;
 	}
 	.bunny{
 		width: 100%; padding: 50px;
-		clear: both;
-		margin: 20px auto; 
+		margin: 12px auto; 
 	}
 	
 }
