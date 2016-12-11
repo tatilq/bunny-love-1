@@ -1,11 +1,5 @@
-@media screen and (max-width:1000px) {
-	.titulo h4 
-	{
-		font-size: 30px;
-	}
-	.bunny{
-		width: 100%; padding: 50px;
-		margin: 12px auto; 
-	}
-	
+@media screen and (max-width:1000px) 
+{
+	.titulo h4 { font-size: 30px; }
+	.bunny { width: 100%; padding: 50px; margin: 12px auto; }
 }
