@@ -1,92 +1,62 @@
-/*CLASES GENERALES*/
-*
-{
-	padding: 0;
-	margin: 0;
+/*SELECTOR GENERALES*/
+body
+{ 
+    background-color:#DFFFFC;
 }
-.titulo h4 
-{
-	font-size: 70px;	
-	color:#F67673;
-}
-.hero h4 , .conejos h4 
-{
-	color:#F67673;
-	font-family: 'Baloo Paaji', cursive;
-}
-.texto p, .hero p , .banner p
-{
-	color: white;
-	font-family: 'Prompt', sans-serif;
-}
-.conejos p
-{
-	font-weight: bold;
-}
+/*CLASES EN COMUN*/
 article
 {
-	background-color: #037F99;
-	padding-bottom: 10px;
+    background-color: #037F99;
+    padding-bottom: 10px;
 }
+.titulo { font-family: 'Baloo Paaji', cursive; }
+.titulo h4 { font-size: 70px; color:#F67673; }
+.hero h4 , .conejos h4 { color:#F67673; font-family: 'Baloo Paaji', cursive; }
+.texto p, .hero p , .banner p { color: white; font-family: 'Prompt', sans-serif; }
 /*ESTA ES LA PARTE DEL HEADER*/
-header .navbar{ background-color: #037F99; font-family: 'Baloo Paaji', cursive;}
-header .navbar a{color:#C1EFFA; }
-header .navbar ul li a {text-align: center; font-family: 'Prompt', sans-serif;}
-header .navbar ul li a:hover{background-color:#F67673; color:#037F99;  }
+header .nav{  background-color: #037F99; font-family: 'Baloo Paaji', cursive;}
+header .nav a{color:#C1EFFA; }
+header .nav ul li a {text-align: center; font-family: 'Prompt', sans-serif;}
+header .nav ul li a:hover{background-color:#F67673; color:#037F99;  }
 header .navbar-header a span {color:#F67673;}
 header button span{background-color: white; border: 2px solid white;}
-#navigation
-{
-	margin-right: 20px;
-}
-#btn_menu{background-color: transparent;}
+#btn_menu { background-color: transparent;}
 /*ESTA ES LA SECCION DEL BANNER*/
-.banner
+#bunny{ margin-top: 50px;}
+.banner 
+{ 
+    background-image: url(../img/img-1.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat; 
+}
+.bunny
 {
-	margin-top: 50px;
-	overflow: hidden;
-}
-.bunny{
-    background: url(../img/img-1.jpg) no-repeat;
-    background-size: cover;
-    height:350px; 
-}
-.titulo{
-    background: rgba(2,126,153,0.7);
-    font-family: 'Baloo Paaji', cursive;
-    margin: 5% 10%;
-    padding: 20px 0px;
+    width: 80%; 
+    margin: 70px auto; 
+    background: rgba(3, 127, 153, 0.76); 
+    padding: 80px;
 }
 /*ESTA ES LA SECCION DEL hero*/
-.hero { margin-top: 50px; margin-bottom: 20px; }
+.hero  .row{background-color: white; padding: 20px;}
 /*ESTA ES LA SECCION DE CONEJOS*/
 .conejos { font-family: 'Prompt', sans-serif;}
-.conejos .row
+.conejos .row 
 {
 	background-color:#037F99; 
 	padding: 20px 0px;
 }
-.conejos .box_bunny
-{
-	padding:10px;
-}
-.conejos article
-{
-	background-color:  #ECF7FB;
-}
+.conejos .box_bunny{ padding:10px; }
+.conejos article { background-color:  #ECF7FB; }
 .conejos input
 {
 	border: solid 9px #ECF7FB;
     padding: 20px;
     margin-bottom: 10px;
 }
-.conejo-echado{
-    
+.conejo-echado
+{   
     height: 350px;
     width: 100%;
-}
-.list-inline>li{
-    margin: 0 10px;
 }
 .box-icon-contact{
     width: 50px;

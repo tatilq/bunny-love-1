@@ -9,17 +9,18 @@
 		<link rel="stylesheet" href="css/font-awesome.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">	
-		<link rel="stylesheet" type="text/css" href="queries.css">	
+		<link rel="stylesheet" href="css/queries.css">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	</head>
 	<body>
 	<!--ESTA ES LA PARTE DEL HEADER-->
 	<header>
-		<div class="container-fluid">
-			<div class="navbar navbar-fixed-top" >
+		<div class="nav navbar-fixed-top" >
+			<div class="container ">
 	            <div class="navbar-header" >
 	                <button type="button" class=" navbar-toggle collapsed" id="btn_menu" data-toggle="collapse" data-target="#navigation">
 	                <span class="sr-only">Desplegar navegación</span>
@@ -29,23 +30,22 @@
 				    </button>
 	                <a class="navbar-brand" href="index.html">Bunny's <span>LOVE</span></a>
 	            </div>
-
 	            <div class="collapse navbar-collapse" id="navigation">
 	                <ul class="menu nav navbar-nav navbar-right">
-	                    <li><a href="#how-to">BUNNYS</a></li>
-		                <li><a href="#about-creamy">CUTE PHOTOS</a></li>
-		                <li><a href="#contact">RABBIT FASHION</a></li>
-		                <li><a href="#contact">NEWS BUNNYS</a></li>
-		                <li><a href="#contact">FEATURES</a></li>
+	                    <li><a href="#bunny">BUNNYS</a></li>
+		                <li><a href="#cut">CUTE PHOTOS</a></li>
+		                <li><a href="#rf">RABBIT FASHION</a></li>
+		                <li><a href="#">NEWS BUNNYS</a></li>
+		                <li><a href="#">FEATURES</a></li>
 	                </ul>
 	            </div>
 	        </div>
 	    </div>
 	</header>
 	<!--ESTA ES LA SECCION DEL BANNER-->
-	<section class="banner">
-	    <div class="container bunny text-center">
-	        <div class="row">
+	<section id="bunny">
+	    <div class="container  banner text-center">
+	        <div class="bunny">
 	            <div class="titulo">
 	                <h4>Soft Bunny</h4>
 	                <p><em>Live - Love - Laugh</em></p>
@@ -55,7 +55,7 @@
 	</section>
 	
 	<!--ESTA ES LA SECCION DEL HERO-->
-	<section class="hero text-center">
+	<section class="hero text-center" id="cut">
 	 	<div class="container">
             <div class="row">
                     <div class="col-xs-12 col-sm-3 col-md-3">
@@ -92,7 +92,7 @@
             </div>         
         </section>
         <!--ESTA ES LA SECCION DEL LOS CONEJOS-->
-        <section class="conejos">
+        <section class="conejos" id="rf">
         	<section class="container">
         		<div class="row">
         			<div class="col-md-7">
@@ -112,23 +112,23 @@
                         </article>       
         			</div>
         			<div class="col-md-5 hidden-xs">
-                        <input  type="text" class=" form-control" placeholder="Search ..." aria-describedby="sizing-addon1"> 
+                        <input  type="text" class=" form-control" placeholder="Search ..." aria-describedby="sizing-addon1">
                         <section class="contact">         
                         	<article class="text-left ">
-                            <img src="img/img-6.jpg" alt="imagen conejo echado" class="img-responsive conejo-echado">
-                            <div class="box_bunny">
-	                            <h4>Where you'll Find me?</h2>
-	                            <p>Shall Together blessed. Also thing the upon created fourth Rule beginning. Our behold over</p>
-	                            <br>
-	                            <ul class="list-inline text-center">
-	                                <li class="box-icon-contact"><a href="" class="fa fa-facebook-official"></a></li>
-	                                <li class="box-icon-contact"><a href="" class="fa fa-instagram"></a></li>
-	                                <li class="box-icon-contact"><a href="" class="fa fa-twitter"></a></li>
-	                                <li class="box-icon-contact"><a href="" class="fa fa-youtube"></a></li>
-	                            </ul>
-	                            <br>
-                            </div>
-                        </article>                           
+	                            <img src="img/img-6.jpg" alt="imagen conejo echado" class="img-responsive conejo-echado">
+	                            <div class="box_bunny">
+		                            <h4>Where you'll Find me?</h2>
+		                            <p>Shall Together blessed. Also thing the upon created fourth Rule beginning. Our behold over</p>
+		                            <br>
+		                            <ul class="list-inline text-center">
+		                                <li class="box-icon-contact"><a href="https://www.facebook.com/" class="fa fa-facebook-official"></a></li>
+		                                <li class="box-icon-contact"><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+		                                <li class="box-icon-contact"><a href="https://twitter.com/?lang=es" class="fa fa-twitter"></a></li>
+		                                <li class="box-icon-contact"><a href="https://www.youtube.com/" class="fa fa-youtube"></a></li>
+		                            </ul>
+		                            <br>
+	                            </div>
+                        	</article>                           
                         </section>  
                         <article class="text-left ">
                             <img src="img/img-3.jpg" alt="conejo blanco" class="img-responsive">
